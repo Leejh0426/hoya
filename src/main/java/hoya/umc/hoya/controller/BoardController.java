@@ -73,7 +73,7 @@ public class BoardController {
 
 
     //test용코드
-    @GetMapping("/boards")
+    @GetMapping("/test")
     @ResponseBody
     public String test(){
         return "test성공 제발";
