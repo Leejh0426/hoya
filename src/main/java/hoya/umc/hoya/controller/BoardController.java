@@ -72,6 +72,20 @@ public class BoardController {
     }
 
 
+    //test용코드
+    @GetMapping("/boards")
+    @ResponseBody
+    public String test(){
+        return "test성공 제발";
+    }
+
+    //test용코드 2
+    @GetMapping()
+    @ResponseBody
+    public String test2(){
+        return "test성공 제발";
+    }
+
 
 
 }
